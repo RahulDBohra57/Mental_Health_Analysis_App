@@ -1,7 +1,6 @@
 App Link: 
 
 # Mental Health Cluster Insight Tool
-
 A Machine Learning-based emotional well-being assessment app
 
 ## Project Summary
@@ -20,7 +19,7 @@ The output includes:
 - Personalized Suggestions: practical recommendations to support mental wellness
 - A PDF Report: containing user responses, cluster insight, date/time, and guidance
 
-How It Works:
+## How It Works:
 - User selects responses to 8 mental-wellness questions.
 - Responses are passed into the trained pipeline:
   - MCA converts categories (Yes/No/Maybe) into numerical factors.
@@ -29,7 +28,7 @@ How It Works:
 - The cluster is mapped to a professionally-written interpretation and suggestions.
 - User can download a personalized Wellness Report (PDF).
 
-Model Training
+## Model Training
 - Model training was completed in Jupyter Notebook:
 - Data cleaning → exploratory analysis
 - MCA transformation
@@ -37,5 +36,5 @@ Model Training
 - Cluster profiling
 - Exporting model artifacts (joblib) for deployment
 
-Deployment
+## Deployment
 The Streamlit application loads the trained MCA transformer, scaler, and clustering model, collects user inputs, generates predictions, and provides insights and reports.
