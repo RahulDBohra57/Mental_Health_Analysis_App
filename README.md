@@ -1,4 +1,4 @@
-App Link: 
+App Link: https://mental-health-analysis-app.streamlit.app/
 
 # Mental Health Cluster Insight Tool
 A Machine Learning-based emotional well-being assessment app
